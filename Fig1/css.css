@@ -1,0 +1,38 @@
+*{
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body>section:nth-child(1){
+background: #fff9f9;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color: #ec436b;
+}
+
+h2{
+    font-size: 30px;
+    color: #0c478c;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    min-height: 80vh;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
